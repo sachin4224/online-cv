@@ -202,7 +202,7 @@ projects:
         tagline:  
         details: |
                 - Implemented a multiple linear regression model with 8 regressors in R language 
-                - Experimented with various tests and methods such as adjusted R2, Q-Q plot, 
+                - Experimented with various tests and methods such as adjusted R squared, Q-Q plot, 
                   anova analysis, variance decomposition method, stepwise selection method,
                   mallow Cp plot, scatter plots, and residual analysis to optimize the model
 
