@@ -152,36 +152,59 @@ projects:
 #         link: "#"
         tagline: 
         details: |
-                Segmented the images from dataset into salient image regions such as cars, bicycle, 
-                pedestrians, and background by applying various computer vision and mahine learning 
-                techniques which includes K-means, Mean-Shift, Watershed, Otsu method, Renyi Entropy,  
-                Adaptive Thresholding, and implemented a Deep Neural Network called Wnet in PyTorch
-                framework
-       
+                - Segmented the images from dataset, without any supervision, into salient image 
+                  regions such as cars, bicycle, pedestrians, and background by applying various 
+                  computer vision and mahine learning techniques which includes K-means, Mean-Shift, 
+                  Watershed, Otsu method, Renyi Entropy, Adaptive Thresholding, and implemented a 
+                  Deep Neural Network called Wnet in PyTorch framework
+                  
+
         
       - title: Fine-Grained Image Classification Using CNN
 #         link: "#"
         tagline: 
+        details: |
+                - Implemented a classifier based on deep neural network called Bilinear CNN 
+                  with VGG16 as a feature extractorto do fine grain(10-20 subcategories) 
+                  classification of objects with 81% accuracy on test set 
+                  
                 
       - title: Brick Detector
 #         link: "#"
         tagline: 
-
+        details: | 
+                - Designed a brick detector based on FasterRCNN with 63% accuracy on test dataset
       - title: Extention of GemOS
 #         link: "#"
         tagline: 
+        details: |
+                - Extended the functionality of GemOS by adding support for syscalls like read(), 
+                  write(), open(), fork(), lseek(), pipe(), dup() etc.(C++)
+                  
         
       - title: Lexical Retrieval Task
 #         link: "#"
         tagline: 
-        
+        details: |
+               - Replicated the experiment on Lexical Retrieval Task by recording the data of
+                 30 patients and showed statistically that females are better at retrieval 
+                 tasks than males
+                  
       - title: Address Book for Cricketers
 #         link: "#"
         tagline: 
+        details: | 
+                - Built an interactive shell app to do queries like finding the record of a player,
+                  adding, removing, and updating an entry in the address book
         
       - title: Regression Analysis of Concrete Compressive Strength Index
 #         link: "#"
-        tagline:        
+        tagline:  
+        details: |
+                - Implemented a multiple linear regression model with 8 regressors in R language 
+                - Experimented with various tests and methods such as adjusted R2, Q-Q plot, 
+                  anova analysis, variance decomposition method, stepwise selection method,
+                  mallow Cp plot, scatter plots, and residual analysis to optimize the model
 
 # publications:
 #     title: Publications
