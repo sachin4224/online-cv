@@ -56,13 +56,14 @@ career-profile:
              
 
 education:
-    - degree: |
-              B.Tech in Computer Science and Engineering
-              Minor in Cognitive Science
-           
+    - degree: B.Tech in Computer Science and Engineering
       university: Indian Institute of Technology Kanpur
       time: 2015 - 2020
-      details: |
+#       details: |
+    - degree: Minor in Coginitive Science
+      university: Indian Institute of Technology Kanpur
+      time: 2015 - 2020
+#       details: |     
 
 
 
