@@ -130,42 +130,42 @@ experiences:
             
 
 
-# projects:
-#     title: Projects
-#     intro: >
+projects:
+    title: Projects
+    intro: >
 
-#     assignments:
-#       - title: Multiple Instance Retrieval Using Deep  Learning
+    assignments:
+      - title: Multiple Instance Retrieval Using Deep  Learning
 #         link: "#hook"
-#         tagline: 
+        tagline: 
 
-#       - title: Unsupervised Image Segmentation of IITK Surveillance Dataset
+      - title: Unsupervised Image Segmentation of IITK Surveillance Dataset
 #         link: "#"
-#         tagline: 
+        tagline: 
         
-#       - title: Fine-Grained Image Classification Using CNN
+      - title: Fine-Grained Image Classification Using CNN
 #         link: "#"
-#         tagline: 
+        tagline: 
                 
-#       - title: Brick Detector
+      - title: Brick Detector
 #         link: "#"
-#         tagline: 
+        tagline: 
 
-#       - title: Extention of GemOS
+      - title: Extention of GemOS
 #         link: "#"
-#         tagline: 
+        tagline: 
         
-#       - title: Lexical Retrieval Task
+      - title: Lexical Retrieval Task
 #         link: "#"
-#         tagline: 
+        tagline: 
         
-#       - title: Address Book for Cricketers
+      - title: Address Book for Cricketers
 #         link: "#"
-#         tagline: 
+        tagline: 
         
-#       - title: Regression Analysis of Concrete Compressive Strength Index
+      - title: Regression Analysis of Concrete Compressive Strength Index
 #         link: "#"
-#         tagline:        
+        tagline:        
 
 # publications:
 #     title: Publications
