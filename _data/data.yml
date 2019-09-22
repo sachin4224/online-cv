@@ -141,11 +141,20 @@ projects:
     assignments:
       - title: Multiple Instance Retrieval Using Deep  Learning
 #         link: "#hook"
-        tagline: 
+        tagline: |
+               - Developed a multiple instance retrieval tool which given an query image and
+                 dataset, outputs all the images in dataset which contains the query image
+                 in decreasing order of cosine similarity.
+               - The tool is based on a ResNet and VGG16 with 55% retrieval rate on test set.
 
       - title: Unsupervised Image Segmentation of IITK Surveillance Dataset
 #         link: "#"
-        tagline: 
+        tagline: Segmented the images from dataset into salient image regions such as cars, bicycle, 
+                pedestrians, and background by applying various computer vision and mahine learning 
+                techniques which includes K-means, Mean-Shift, Watershed, Otsu method, Renyi Entropy,  
+                Adaptive Thresholding, and implemented a Deep Neural Network called Wnet in PyTorch
+                framework
+       
         
       - title: Fine-Grained Image Classification Using CNN
 #         link: "#"
