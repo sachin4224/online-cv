@@ -3,198 +3,218 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Sachin Sardiwal
+    tagline: Undergraduate Researcher
+    avatar: sachin.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: srsachin@iitk.ac.in
+    phone: +91 809 476 3606
+    website:  #do not add http://
+    linkedin: sachin4224
+    github: sachin4224
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
+        level: Professional
+
+      - idiom: Hindi
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
 
     interests:
-      - item: Climbing
+      - item: Meditation
         link:
 
-      - item: Snowboarding
+      - item: Traveling
         link:
 
       - item: Cooking
         link:
 
 career-profile:
-    title: Career Profile
+    title: About Me
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+        Hey! there, I am senior undergraduate in the department of Computer Science And Engineering at
+        IIT Kanpur, India. During the college years I have developed deep passion for Artificial 
+        Intelligence, Cognitive Sciences, and Quantitative Finance. I'm interested, particulary, in 
+        applying deep learning and AI to solve the challenging problems of our society. Also, I'm very
+        curious about how AI will change the financial industry in upcoming years. My quest to solve 
+        some of the problems led me to work in close collaboration with Prof. Sergey Axyonov where I
+        worked on a project to help medical professionals diagnose Pneumonia, Tuberculosis, and other 
+        lung related dieses using SOTA AI techniques. 
+             
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: B.Tech in Computer Science and Engineering
+      university: Indian Institute of Technology Kanpur
+      time: 2015 - 2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Visiting Researcher
+      time: May 2018 - Jul 2018
+      company: Tomsk Polytechnic University, Tomsk, Russia
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        I was advised by Prof. Sergey Axyonov on my project which was focused on medical image 
+        processing. The first task was to find pathological regions inside lungs related to Pneumonia, 
+        and Tuberculosis using Computed Tomography(CT) scans. The second task  was to design a tool
+        which could compare the CT images taken at different times so any potential reduction/increment
+        in the pathological regions could be monitored.
 
-          - Bullet point
-          - Bullet point
+          - For the first task, I used various image processing techniques like  filtering, thresholding, 
+            segmentation to seperate the lung regions with other regions like tissues etc. I also 
+            applied K-Means to segment the lung regions.
+          - For the second task, I applied image registration techniques in SimpleITK library(United States 
+            National Library of Medicine’s Insight Segmentation and Registration Toolkit). These registration
+            techniques include Euler 3D Transformation, Affine Transformtion, and Displacement Field Transformation.
+            The best results were obtained using Displacment Field Transformation. At the end, the tool was
+            able to track the changes in the area of pathological regions inside lungs. 
+            
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Quantitative Research Consultant
+      time: Sep 2016 - Aug 2019
+      company: WoldQuant LLC, India
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+            My work mainly consisted of making Statistical Arbitrage alphas(trading signals) 
+            with 3-5 sharpe ratios and returns > 10% in Asian, European, and US stock markets.
+            For that, I was constantly researching financial literature to find new alpha signals
+            in the stock markets, and systematically converted the ideas into mathematical models
+            and backtested the signals on historical dataset of previous 10 years to avoid overfiting 
+            and data-mining.
+            - Consistently performed well in the firm and was among Tier 1 consultants
+            - Developed alphas generated a total profile of approximately $50k for the firm
+            - Combined and worked with price-volume,  fundamental, analyst estimates and many 
+              other datasets to build robust alphas and employed strategies like neutralization, 
+              diversification, and data visualization to minimize risk
+            - Worked closely with Senior Quantitative Researchers and other Research Consultant in 
+              the firm to successfully complete Alpha Quality Projects 
+            - Attended various Meet-Ups held at different locatins in India and worked in teams & with
+              Senior staff of the firm to network and discuss alpha ideas
 
-          - Bullet point
-          - Bullet point
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Algorithmic Trading Trainee
+      time: Jan 2019 - Apr 2019
+      company: Auquan, India
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+            I was advised by Chandani Jain, Ex-Derivative trader at Optiver, during the training phase 
+            which consisted of experimenting with mid-frequency data of minute scale to build algorithmic
+            trading strategies in US stock markets. 
+            The main highlights of the training programs are:
+            
+            - Learnt the basics of Financial Engineering and employed the same in real world data
+            - Applied Machine Learning and Technical Analysis to build  trading strategies in Python
+            - Improved the raw signals by introducing hedging, neutralization, and pair’s trading
+            - Made signals based on moving averages, RSI, mean reversion, and momentum
+            - Backtested the strategies against historical data to avoid overfiting/underfiting
+            
+            
+    - role: Quantitative Summer Trainee
+      time: May 2016 - July 2016
+      company: WorldQuant LLC, India
+      details: |
+            - Learnt the basics of Quantitative Finance, and made 70 alphas in US stock market
+            - Offered the position of Quant Research Consultant for excellent performance in summer
+            
 
-          - Bullet point
-          - Bullet point
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+# projects:
+#     title: Projects
+#     intro: >
 
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#     assignments:
+#       - title: Multiple Instance Retrieval Using Deep  Learning
+#         link: "#hook"
+#         tagline: 
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+#       - title: Unsupervised Image Segmentation of IITK Surveillance Dataset
+#         link: "#"
+#         tagline: 
+        
+#       - title: Fine-Grained Image Classification Using CNN
+#         link: "#"
+#         tagline: 
+                
+#       - title: Brick Detector
+#         link: "#"
+#         tagline: 
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: Extention of GemOS
+#         link: "#"
+#         tagline: 
+        
+#       - title: Lexical Retrieval Task
+#         link: "#"
+#         tagline: 
+        
+#       - title: Address Book for Cricketers
+#         link: "#"
+#         tagline: 
+        
+#       - title: Regression Analysis of Concrete Compressive Strength Index
+#         link: "#"
+#         tagline:        
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#     papers:
+#       - title: The Art of Computer Programming
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: A syntax directed compiler for Algol 60
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python, C++, 
         level: 98%
+        
+      - name: Shell Scripting
+        level: 90%
+        
+      - name: PyTorch, Kera, OpenCV
+        level: 80%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: TensorFlow, Scikit-Learn
+        level: 70%
+        
+      - name: Pandas, Numpy
+        level: 90%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Vim, Git, Latex
         level: 95%
+        
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: R, SimpleITK
         level: 60%
+
+      - name: Websim, Auquan Toolbox
+        level: 98%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
